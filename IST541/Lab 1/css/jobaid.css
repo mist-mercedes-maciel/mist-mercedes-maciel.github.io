@@ -8,6 +8,7 @@ body {
 
 h1, h2 { 
 	text-align:center;     /* centers h1 and h2 content */
+	
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
@@ -23,12 +24,14 @@ h1, h2 {
 	background-color:#F7B857;
 	font-weight: bold;
 	font-size: 150%;
+	color:#5F0607;
+	
  }
 
 .stepContent{ 
 	background-color: white;
 	padding:7px;
-	display: flex;
+	display: flex; /*creates multiple column layout*/
 	flex-wrap:wrap;
 	justify-content: center;
 }
@@ -40,7 +43,7 @@ h1, h2 {
 }
 
 .stepImage {
-	width:40%;	
+	width:30%;	
 	padding:5px;
 	text-align: center;
 }
