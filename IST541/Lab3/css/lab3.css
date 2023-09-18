@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {text-align: center;
+      background-color: #53626F;
+	color: #C9C7DD;
+	font-family: 'Mooli', sans-serif;
+	
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	background-color:#2A4B23;
+	color:#BABCD3;
+}
+
+a:hover {
+	font-size: 200%; 
+	background-color: #125804;
+	color:#000000
+		
+}
