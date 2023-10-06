@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-color: #53626F; 
+}
+#wrapper {
+width: 900px;
+margin: auto;
+text-align: center;
+	color: #C9C7DD;
+	font-family: 'Mooli', sans-serif;
+}
+
+ #us_lighthouses {
+border: black 5px solid;
+}
+ 
+ #michigan_us_map {
+display: none; /* hides content */
+border: black 5px solid;
+}
