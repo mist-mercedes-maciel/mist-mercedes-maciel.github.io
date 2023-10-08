@@ -3,32 +3,32 @@
 <head>
 <meta charset="utf-8">
 <title>Lab5_q1</title>
-	<link href="css/lighthouses.css" rel="stylesheet" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link href="css/lighthouses.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
-	<div id="wrapper">
- 
-<h1>Do you know which U.S. state has the most lighthouses?</h1>
- 
-<h3 id="hint">Hint: Hover over the image below to find out!</h3>
- 
-<img onmouseenter="showAnswer()" id="us_lighthouses"  src="img/us_lighthouses.jpg" 
-	 width="50%" alt="us map with lighthouses"/>
- 
-<img onmouseleave="hideAnswer()" id="michigan_us_map" src="img/michigan_us_map.png" 
+<div id="wrapper"> 
+	<br>
+  <a href="question1.html">Home</a>
+  <a href="question2.html">Learning Check</a> 
+	<br>
+  <h1>Do you know which U.S. state has the most lighthouses?</h1>
+  <h3 id="hint">Hint: Hover over the image below to find out!</h3>
+  <img onmouseenter="showAnswer()" id="us_lighthouses"  src="img/us_lighthouses.jpg" 
+	 width="50%" alt="us map with lighthouses"/> <img onmouseleave="hideAnswer()" id="michigan_us_map" src="img/michigan_us_map.png" 
 	 width="50%" alt="us map showing state of Michigan"/>
- 
-      <div id="answer"></div>  <!-- This is a placeholder to display the answer-->
- 
-</div> <!-- closing  “wrapper” -->
-		
+  <div id="answer"></div>
+  <!-- This is a placeholder to display the answer--> 
+  
+</div>
+<!-- closing  “wrapper” --> 
+
 <script>
  function showAnswer() {
 	   $("#us_lighthouses").hide();
 	   $("#michigan_us_map").show();
-	   $("#answer").html("<h2> With 129 lighthouses, Michigan has more lighthouses than any other state and all of them have a unique look and story. Lake Michigan is home to 102 Lighthouses! You can find them in each state bordering the lake. Lake Superior houses the Stannard Rock Light is a lighthouse located on a reef that was the most serious hazard to navigation. It is 24 miles (39 km) from the nearest land, making it the most distant (from shore) lighthouse in the United States. It was one of the "stag stations", manned only by men, and had the nickname "The Loneliest Place in the World".  The oldest lighthouse in Michigan is located at Fort Gratiot. It was built in 1814 during the War of 1812. </h2>");
+	   $("#answer").html("<h3> With 129 lighthouses, Michigan has more lighthouses than any other state due to its location in the Great Lakes. Lake Michigan is home to 102 Lighthouses! You can find them in each state bordering the lake. Lake Superior houses the Stannard Rock Light is a lighthouse located on a reef that was the most serious hazard to navigation. It is 24 miles (39 km) from the nearest land, making it the most distant (from shore) lighthouse in the United States. It was one of the 'stag stations', manned only by men, and had the nickname 'The Loneliest Place in the World'.  The oldest lighthouse in Michigan was built in 1825 and was located at Fort Gratiot established during the War of 1812. </h3>");
 	}
 function hideAnswer() {
 	   $("#us_lighthouses").show();
@@ -38,5 +38,3 @@ function hideAnswer() {
 </script>
 </body>
 </html>
-
-

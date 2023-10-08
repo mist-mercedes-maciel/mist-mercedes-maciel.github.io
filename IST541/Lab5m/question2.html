@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>question2</title>
+<link href="css/lighthouses.css" rel="stylesheet" style="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+	<br>
+	<a href="question1.html">Home</a>
+	<a href="question2.html">Learning Check</a>
+	<br>
+  <h1>What did you learn in the previous page?</h1>
+  <h2>Which U.S. state has the most lighthouses?</h2>
+  <h4>Click on one of the following choices</h4>
+  <h3 onclick="wrongAnswer()" class="choices"> Minnesota </h3>
+  <h3 onclick="wrongAnswer1()" class="choices"> Missouri </h3>
+  <h3 onclick="rightAnswer()" class="choices"> Michigan </h3>
+  <h3 onclick="wrongAnswer2()" class="choices"> Mississippi </h3>
+  <div id="feedback"></div>
+  <img id="michigan_us_map" src="img/michigan_us_map.png" 
+	 width="30%" alt="us map showing state of Michigan"
+	 /> </div>
+<script>
+	
+    function rightAnswer(){
+         $("#feedback").html("<h2 style='color:white'> Correct! Michigan has more lighthouses than any other state.</h2>");
+         $("#michigan_us_map").show();
+	}
+	function wrongAnswer(){
+      $("#feedback").html("<h2 style='color:pink'> Minessota has only five active lighthouses. </h2>");
+      $("#michigan_us_map").hide();
+   }
+    function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:pink'> All of the lighthouse structores in Missouri are ornamental. </h2>");
+      $("#michigan_us_map").hide();
+   }
+    function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:pink'> The Mississippi river has no functioning lighthouses. </h2>");
+      $("#michigan_us_map").hide();
+   }
+
+   </script> 
+<br>
+<br>
+<div id="wrapper2">
+  <h2>Located 24 miles from the nearest land, Stannard Rock Ligh stands on a reef that was the most serious hazard to navigation of which Lake?</h2>
+  <h4>Click on one of the following choices</h4>
+  <h3 onclick="wrongAnswerq2()" class="choices"> Lake Michigan </h3>
+  <h3 onclick="rightAnswerq2()" class="choices"> Lake Superior </h3>
+  <h3 onclick="wrongAnswerq2()" class="choices"> Lake Huron </h3>
+  <h3 onclick="wrongAnswerq2()" class="choices"> Lake Ontario </h3>
+  <h3 onclick="wrongAnswerq2()" class="choices"> Lake Erie </h3>
+  <div id="feedback2"></div>
+  <img id="Stannard_Rock" src="img/Stannard_Rock.jpg" 
+	 width="30%" alt="aerial view of Stannard Rock lighthouse"
+	 /> </div>
+<script>
+	
+    function rightAnswerq2(){
+         $("#feedback2").html("<h2 style='color:white'> Correct! Stannard Rock is located in Lake Superior.</h2>");
+         $("#Stannard_Rock").show();
+	}
+	function wrongAnswerq2(){
+      $("#feedback2").html("<h2 style='color:pink'> Wrong Lake, try again. </h2>");
+      $("#Stannard_Rock").hide();
+   }
+ </script> 
+<br>
+<br>
+<div id="wrapper3">
+  <h2>How many Lighthouses are located along Lake Michigan?</h2>
+  <h4>Click on one of the following choices</h4>
+  <h3 onclick="wrongAnswerq3()" class="choices"> 112 Lighthouses </h3>
+  <h3 onclick="wrongAnswerq3()" class="choices"> 129 Lighthouses </h3>
+  <h3 onclick="wrongAnswerq3()" class="choices"> 134 Lighthouses </h3>
+  <h3 onclick="rightAnswerq3()" class="choices"> 102 Lighthouses </h3>
+  <div id="feedback3"></div>
+  <img id="Lake_michigan" src="img/lake_michigan.jpg" 
+	 width="30%" alt="map diagram of lake Michigan"
+	 /> </div>
+<script>
+	
+    function rightAnswerq3(){
+         $("#feedback3").html("<h2 style='color:white'> Correct! Lake Michigan has 102 lighthouses.</h2>");
+         $("#Lake_michigan").show();
+	}
+	function wrongAnswerq3(){
+      $("#feedback3").html("<h2 style='color:pink'> Wrong Answer, try again. </h2>");
+      $("#Lake_michigan").hide();
+   }
+ </script> 
+<br>
+<br>
+<div id="wrapper4">
+  <h2>What year was the lighthouse in Fort Gratiot built?</h2>
+  <h4>Click on one of the following choices</h4>
+  <h3 onclick="wrongAnswerq4()" class="choices"> 1812 </h3>
+  <h3 onclick="rightAnswerq4()" class="choices"> 1825 </h3>
+  <h3 onclick="wrongAnswerq4()" class="choices"> 1839 </h3>
+  <h3 onclick="wrongAnswerq4()" class="choices"> 1802 </h3>
+  <div id="feedback4"></div>
+  <img id="Ft_Gratiot" src="img/Ft_Gratiot.jpg" 
+	 width="30%" alt="picture of Ft.Gratiot"
+	 /> </div>
+<script>
+	
+    function rightAnswerq4(){
+         $("#feedback4").html("<h2 style='color:white'> Correct! The lighthouse in Fort Gratiot was built in 1825.</h2>");
+         $("#Ft_Gratiot").show();
+	}
+	function wrongAnswerq4(){
+      $("#feedback4").html("<h2 style='color:pink'> Wrong Year, try again. </h2>");
+      $("#Ft_Gratiot").hide();
+   }
+ </script>
+</body>
+</html>

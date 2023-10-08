@@ -3,6 +3,21 @@
 
 body {background-color: #53626F; 
 }
+
+a {
+	padding: 15px;
+	margin: 3px;
+	background-color:aliceblue;
+	color:darkslateblue;
+}
+
+a:hover {
+	font-size: 200%; 
+	background-color: darkslateblue;
+	color:aliceblue;
+		
+}
+
 #wrapper {
 width: 900px;
 margin: auto;
@@ -18,4 +33,59 @@ border: black 5px solid;
  #michigan_us_map {
 display: none; /* hides content */
 border: black 5px solid;
+}
+
+.choices {
+cursor: pointer;
+}
+
+#wrapper2 {
+width: 900px;
+margin: auto;
+text-align: center;
+	color: #C9C7DD;
+	font-family: 'Mooli', sans-serif;
+}
+ 
+ #Stannard_Rock {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+.choices {
+cursor: pointer;
+}
+
+#wrapper3 {
+width: 900px;
+margin: auto;
+text-align: center;
+	color: #C9C7DD;
+	font-family: 'Mooli', sans-serif;
+}
+ 
+ #Lake_michigan {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+.choices {
+cursor: pointer;
+}
+
+#wrapper4 {
+width: 900px;
+margin: auto;
+text-align: center;
+	color: #C9C7DD;
+	font-family: 'Mooli', sans-serif;
+}
+ 
+ #Ft_Gratiot {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+.choices {
+cursor: pointer;
 }
