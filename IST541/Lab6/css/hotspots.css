@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;   /* centers all content */	
+    background-color: #53626F; 
+
+}
+
+#wrapper {
+	width:85%;
+	margin:0 auto;       /* centers wrapper */
+    text-align: center;
+	color: #C9C7DD;
+}
+
+#feedback {
+	background: lightblue; /* background color */
+	padding: 20px; 
+    font-size: 125%;
+}

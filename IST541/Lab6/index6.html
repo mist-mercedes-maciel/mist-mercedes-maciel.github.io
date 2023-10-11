@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab6</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link href="css/hotspots.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+<script src="js/hotspot-1.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <h2>No matter the size, shape or location, the top of a lighthouse share the same structures.</h2>
+  <h3> Hover over and Click on the structure to learn about it.</h3>
+	
+	    <div id="myModal" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Lantern Room Structure</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="feedback"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <img src="img/lantern_room.png" alt="Diagram of a typical lighthouse lantern room" width="465" usemap="#Map"/>
+  <map name="Map">
+    <area id="Cupula" shape="poly" coords="99,167,356,165,324,122,283,94,256,82,204,81,172,94,145,114" href="#" alt="Dome shaped roof" title="Cupula">
+    <area id="Window Panels" shape="rect" coords="339,197,362,324" href="#" alt="Window panels" title="Window Panels">
+    <area id="Fresnel Lens" shape="poly" coords="201,184,255,185,283,215,299,257,298,330,294,381,164,381,161,333,161,257,177,216" href="#" alt="Fresnel lens" title="Fresnel Lens">
+    <area id="Carousel" shape="circle" coords="226,453,25" href="#" alt="Carousel" title="Carousel">
+    <area id="Main Gallery" shape="rect" coords="101,383,167,545" href="#" alt="Main Gallery" title="Main Gallery">
+    <area id="Balcony" shape="rect" coords="382,478,438,543" href="#" alt="Balcony" title="Balcony">
+    <area id="Clockwork Mechanism" shape="rect" coords="257,448,300,632" href="#" alt="Clockwork Mechanism" title="Clockwork Mechanism">
+  </map>
+  <br>
+  <br>
+  <div>Image Courtesy of Wikipedia.</div>
+</div>
+<!--closing wrapper-->
+
+</body>
+</html>
