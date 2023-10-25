@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	 background-color: #53626F;
+	color:aliceblue;
+	font-family: 'Mooli', sans-serif;
+}
+p {
+	text-align: left;
+	color: black;
+	line-height: 145%;
+}
+img {
+	width: 50%	
+}
+ul {
+	text-align: left;
+	color: black;
+}
+ol {
+	text-align: left;
+	color: black;
+}
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:lightblue;
+	color: darkblue;
+}
+a:hover {
+	font-size: 200%;
+	background-color: darkblue;
+	color:aliceblue
+}
+
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+h1, h2, h5 { 
+	text-align:center;     /* centers h1 and h2 content */
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	background-color:midnightblue;
+	font-weight: bold;
+	font-size: 150%;
+ }
+
+.stepContent{ 
+	background-color:aliceblue;
+	padding:7px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+	line-height:145%;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: center;
+}
+
+.stepImage img {
+    width:85%;
+    height:auto;
+}
+
+strong {
+  font-weight: 800;
+}
+.accessible {
+		background-color: #F4A804;
+		padding:10px;
+		border-radius:20px;
+	}
+.report {
+		background-color: #F4A804;
+		padding:10px;
+		border-radius:20px;
+	}
+.material-icons {
+	color:blue; 
+	font-size:3em;
+}
+.material-symbols-outlined {
+	color:blue; 
+	font-size:3em;
+}
+#feedback {
+	background:#AEE7F5; /* background color */
+	padding: 20px; 
+    font-size: 125%;
+	color: black;
+}
+#wrapper {
+	width:85%;
+	margin:0 auto;       /* centers wrapper */
+    text-align: center;
+	color: #C9C7DD;
+}
+#wrapper2 {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #windy {
+border: black 5px solid;
+}
+ 
+ #windy2 {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+ #rainy {
+border: black 5px solid;
+}
+ 
+ #rainy2 {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+ #thunder {
+border: black 5px solid;
+}
+ 
+ #thunder2 {
+display: none; /* hides content */
+border: black 5px solid;
+}
