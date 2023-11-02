@@ -1,0 +1,10 @@
+
+      
+      window.features = {
+        runRequireName:
+          true,
+        subscriptions: 
+          true,
+          feedback:
+            true,
+      }
