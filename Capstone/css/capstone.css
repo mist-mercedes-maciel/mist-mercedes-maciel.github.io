@@ -15,11 +15,18 @@ body {
 	text-align: center;
 	color: darkblue;
 }
-h1 {
+h1, h3 {
 	font-family: 'Cutive', serif;
 }
 h2 {
 	font-family: 'Cutive Mono', monospace;
+}
+h4 {
+	font-family: 'Cutive Mono', monospace;
+	text-align: left;
+}
+h5 {
+	font-family: 'Cutive', serif;
 }
 a {
 	padding-bottom: 1px;
@@ -37,9 +44,26 @@ a:hover {
 	color:azure
 		
 }
-#wrapper {
+#wrapper, #wrapper2 {
 	width: 85%;
 	margin: 0 auto;    /* centers wrapper */
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#headerTask {
+	background-color:#EFEFF5;
+	padding:7px;
 }
 .stepTitle{
 	padding:10px;

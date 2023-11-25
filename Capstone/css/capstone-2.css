@@ -25,6 +25,9 @@ h4 {
 	font-family: 'Cutive Mono', monospace;
 	text-align: left;
 }
+h5 {
+	font-family: 'Cutive', serif;
+}
 a {
 	padding-bottom: 1px;
 	padding-top: 5px;
@@ -41,12 +44,12 @@ a:hover {
 	color:azure
 		
 }
-#wrapper {
+#wrapper, #wrapper2 {
 	width: 85%;
 	margin: 0 auto;    /* centers wrapper */
 }
-#headerTask {
-	background-color:#E2E1EF;
+#headerTask, #headerTask2 {
+	background-color:#EFEFF5;
 	padding:7px;
 }
 .taskTitle{
@@ -91,8 +94,15 @@ a:hover {
 	color:blue; 
 	font-size:3em;
 }
-
-
+.Warning {
+		background-color:#F0B4B4;
+		padding:10px;
+		border-radius:20px;
+	}
+.material-symbols-outlined {
+	color:darkred;
+	font-size: 3em;
+}
 
 strong {
   font-weight: 800;
